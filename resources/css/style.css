@@ -1,0 +1,89 @@
+body {
+    max-width: 900px;
+    margin: auto;
+}
+
+.container {
+    border: 2px solid grey;
+    width: 750px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+
+.color-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 750px;
+}
+
+.palegreen-panel {
+    background-color: palegreen;
+    width: 125px;
+    padding: 50px;
+    text-align: center;
+}
+
+.aqua-panel {
+    background-color:aqua;
+    width: 125px;
+    padding: 50px;
+    text-align: center;
+}
+
+.yellow-panel {
+    background-color: yellow;
+    width: 125px;
+    padding: 50px;
+    text-align: center;
+}
+
+.fonts-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    width: 750px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.roboto-label {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.open-sans-label {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.montserrat-label {
+    text-decoration: underline;
+    font-size: 24px;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.heading-one-panel p,
+.heading-two-panel p,
+.paragraph-panel .lists p {
+    font-size: 20px;
+}
